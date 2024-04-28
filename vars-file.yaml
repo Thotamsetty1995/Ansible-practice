@@ -2,6 +2,6 @@
 #Trainer: "Shivakumar"
 #Duration: "3.5 months"
 
-Env: "Dev"
+Environment: "Dev"
 Project: "MIP"
 type: "A"
