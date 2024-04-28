@@ -1,6 +1,6 @@
 ---
 - name: variables
-  hosts: localhost
+  hosts: ansible-hosts
   vars_files:
   - vars-file.yaml
   tasks:
