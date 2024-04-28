@@ -1,6 +1,6 @@
 ---
 - name: Stop Nginx
-  hosts: all
+  hosts: hosts
   become: yes
   tasks:
     - name: Stop Nginx service
