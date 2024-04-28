@@ -2,9 +2,9 @@
 - name: variables
   hosts: localhost
   vars:
-    Course: "Ansible"
+    Course: "Jenkins"
     Trainer: "Sivakumar"
-    Duration: "120hrs"
+    Duration: "150hrs"
   tasks:
   - name: print information
     ansible.builtin.debug:
