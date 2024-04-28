@@ -5,7 +5,8 @@
     Course: "Jenkins"
     Trainer: "Sivakumar"
     Duration: "150hrs"
+    fees: "25000"
   tasks:
   - name: print information
     ansible.builtin.debug:
-       msg: "Hi, we are learning {{Course}} from {{Trainer}} and {{Duration}} is 120hrs"
+       msg: "Hi, we are learning {{Course}} from {{Trainer}} and duration is {{Duration}} and fees is {{fees}}
